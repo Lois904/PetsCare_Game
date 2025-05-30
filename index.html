@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetsCare</title>
+    <link rel="stylesheet" href="css/styles.css">
+   <link rel="icon" type="img/Cheddar" href="img/goldenretriever.png">
+</head>
+
+<body>
+    <header>
+        <h1>PetsCare</h1>
+    </header>
+
+    <main>
+        <section id="KiesHond">
+            <h2>Kies je hondje🐶🐾</h2>
+
+            <div class="hondencontainer">
+                <button id="CheddarButton" class="hond-keuze">
+                    <img src="img/goldenretriever.png" alt="Hond 1">
+                    <span>Cheddar</span>
+                </button>
+
+                <button id="WolfButton" class="hond-keuze">
+                    <img src="img/fotoHond2.png" alt="Hond 2">
+                    <span>Wolf</span>
+                </button>
+
+
+                <button id="SissyButton" class="hond-keuze">
+                    <img src="img/fotoHond3.png" alt="Hond 3">
+                    <span>Sissy</span>
+                </button>
+            </div>
+        </section>
+
+        <section id="keuzeScherm" class="hidden">
+            <h2>Verzorg Cheddar</h2>
+
+            <div class="zorglayout">
+                <div class="hond-afbeelding-container">
+                    <div class="levensmeter-container">
+                        <p class="feedback">Je hondje voelt zich nog niet zo lekker...</p>
+                        <progress id="levensmeter" value="0" max="100"></progress>
+                        <label for="levensmeter">Levenswaarde</label>
+
+                    </div>
+                    <img id="hondFoto" src="img/goldenretriever.png" alt="Gekozen hond">
+                </div>
+                <div class="knoppen-zijbalk">
+                    <button class="voerButton">Hond voeren 🍗</button>
+                    <button class="wassenButton">Hond wassen 🚿🫧</button>
+                    <button class="waterGevenButton">Hond water geven 🪣</button>
+                    <button class="uitlatenButton">Hond uitlaten🚶🏼🦮</button>
+                </div>
+            </div>
+
+            <button id="terugButton">Ander hondje kiezen</button>
+        </section>
+    </main>
+    <script src="javascript/javascript.js"></script>
+</body>
+
+
+</html>
